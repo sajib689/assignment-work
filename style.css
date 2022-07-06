@@ -1,5 +1,4 @@
 body {
-  font-family: "Open Sans", sans-serif;
   font-family: "Oxygen", sans-serif;
   margin: 0px;
   padding: 0px;
@@ -28,7 +27,7 @@ p {
   text-align: center;
   color: white;
   margin-top: 120px;
-  margin-left: 400px;
+  margin-left: 330px;
 }
 
 .donate-button {
@@ -72,8 +71,13 @@ p {
 .other-ammount {
   text-align: center;
   margin-top: 50px;
+  padding: 10px 12px;
 }
-
+.other-ammount input {
+  padding: 10px 12px;
+  border-radius: 5px;
+  color: white;
+}
 .horzental {
   margin-left: 30%;
   margin-right: 30%;
@@ -150,16 +154,22 @@ p {
 .last-text {
   text-align: center;
 }
+.donate-plan {
+  font-size: 50px;
+}
 
 .input-area {
   margin-left: 40%;
   margin-right: 30;
 }
 .input-area input {
-  border-color: #ffeeee;
+  border-color: #946565;
   margin-bottom: 150px;
-  width: 20%;
-  height: 5%;
+  width: 15%;
+  padding: 10px 18px;
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-bottom: 150px;
 }
 h5 {
   font-weight: bold;
@@ -168,4 +178,27 @@ h5 {
 .last-head {
   font-size: 50px;
   font-weight: 700;
+}
+.donate-button-two {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  padding: 10px 25px;
+  border-radius: 5px;
+  color: white;
+}
+
+/* end this seciton */
+
+.footer-section {
+  text-align: center;
+  color: wheat;
+  background-color: black;
+  padding: 60px;
+}
+
+.last-color {
+  color: #ff5959;
+}
+.margin {
+  margin-top: 50px;
 }
